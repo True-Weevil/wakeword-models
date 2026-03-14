@@ -1,0 +1,4 @@
+{
+  "class_mapping": {"0": "hey_lumi"},
+  "model_path": "https://raw.githubusercontent.com/True-Weevil/wakeword-models/main/hey_lumi.tflite"
+}
