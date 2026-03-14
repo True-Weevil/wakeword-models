@@ -1,5 +1,6 @@
 {
   "version": 1,
   "class_mapping": {"0": "hey_lumi"},
-  "model": "https://raw.githubusercontent.com/True-Weevil/wakeword-models/main/hey_lumi.tflite"
+  "model": "https://raw.githubusercontent.com/True-Weevil/wakeword-models/main/hey_lumi.tflite",
+  "trained_languages": ["en"]
 }
