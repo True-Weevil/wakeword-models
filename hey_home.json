@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "class_mapping": {"0": "hey_home"},
   "model": "https://raw.githubusercontent.com/True-Weevil/wakeword-models/main/hey_home.tflite"
 }
