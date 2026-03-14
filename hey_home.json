@@ -1,6 +1,15 @@
 {
-  "version": 1,
-  "class_mapping": {"0": "hey_home"},
+  "type": "micro",
+  "wake_word": "Hey Home",
+  "author": "True-Weevil",
   "model": "https://raw.githubusercontent.com/True-Weevil/wakeword-models/main/hey_home.tflite",
-  "trained_languages": ["en"]
+  "trained_languages": ["en"],
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.85,
+    "feature_step_size": 10,
+    "sliding_window_size": 5,
+    "tensor_arena_size": 30000,
+    "minimum_esphome_version": "2024.7.0"
+  }
 }
