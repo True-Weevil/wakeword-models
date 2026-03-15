@@ -3,8 +3,8 @@
   "wake_word": "hey lumi",
   "version": 2,
   "trained_languages": ["en"],
+  "model": "hey_lumi.tflite",
   "micro": {
-    "model": "hey_lumi.tflite",
     "probability_cutoff": 0.5,
     "sliding_window_size": 10,
     "feature_step_size": 10,
