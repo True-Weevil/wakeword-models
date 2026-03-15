@@ -1,15 +1,13 @@
 {
-  "type": "micro",
-  "wake_word": "Hey Lumi",
-  "author": "True-Weevil",
-  "model": "https://raw.githubusercontent.com/True-Weevil/wakeword-models/main/hey_lumi.tflite",
+  "type": "micro_wake_word_model",
+  "wake_word": "hey lumi",
+  "version": 2,
   "trained_languages": ["en"],
-  "version": 1,
   "micro": {
-    "probability_cutoff": 0.85,
+    "model": "hey_lumi.tflite",
+    "probability_cutoff": 0.5,
+    "sliding_window_size": 10,
     "feature_step_size": 10,
-    "sliding_window_size": 5,
-    "tensor_arena_size": 30000,
-    "minimum_esphome_version": "2024.7.0"
+    "tensor_arena_size": 17000
   }
 }
