@@ -3,7 +3,6 @@
   "wake_word": "hey lumi",
   "author": "True-Weevil",
   "version": 2,
-  "trained_languages": ["en"],
   "model": "hey_lumi.tflite",
   "micro": {
     "probability_cutoff": 0.5,
