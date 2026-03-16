@@ -2,7 +2,8 @@
   "type": "micro",
   "wake_word": "Hey Nexus",
   "author": "True-Weevil",
-  "model": "https://raw.githubusercontent.com/True-Weevil/wakeword-models/main/hey_nexus.tflite",
+  "website": "https://raw.githubusercontent.com/True-Weevil/wakeword-models/main/hey_nexus.tflite",
+  "model": "hey_nexus.tflite",
   "trained_languages": ["en"],
   "version": 1,
   "micro": {
@@ -13,3 +14,4 @@
     "minimum_esphome_version": "2024.7.0"
   }
 }
+
